@@ -1,4 +1,15 @@
 @charset "UTF-8";
+.img-hover-zoom--brightness img {
+	transition: transform 1s, filter 1.5s ease-in-out;
+	transform-origin: center center;
+	filter: brightness(60%);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--brightness:hover img {
+	filter: brightness(130%);
+	transform: scale(1.2);
+  }
 
 .wp-block-archives {
 	box-sizing: border-box;
