@@ -1,8 +1,12 @@
 @charset "UTF-8";
+.img-hover-zoom--brightness {
+  height: 300px; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+}
 .img-hover-zoom--brightness img {
 	transition: transform 1s, filter 1.5s ease-in-out;
 	transform-origin: center center;
-	filter: brightness(60%);
+	filter: brightness(75%);
   }
   
   /* The Transformation */
